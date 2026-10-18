@@ -164,3 +164,8 @@ Assertions use `expect-webdriverio`. The tests wait for specific application con
 - [WebdriverIO: Page Objects](https://webdriver.io/docs/pageobjects)
 - [WebdriverIO: Allure Reporter](https://webdriver.io/docs/allure-reporter)
 - [Demoblaze Website](https://www.demoblaze.com/index.html)
+
+## Evidence 
+
+<img width="3586" height="2154" alt="image" src="https://github.com/user-attachments/assets/b138e28e-0896-48b8-a2b0-e1d9b3839fdd" />
+<img width="3598" height="2164" alt="image" src="https://github.com/user-attachments/assets/440c16d3-ad70-4de4-a1f1-14c8182f15c0" />
