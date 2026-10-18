@@ -1,0 +1,12 @@
+[
+  {
+    "id": "CART-001",
+    "name": "Add the selected product as an authenticated user",
+    "signupMessage": "Sign up successful.",
+    "product": {
+      "category": "Phones",
+      "name": "Samsung galaxy s6",
+      "addMessage": "Product added."
+    }
+  }
+]
