@@ -152,7 +152,6 @@ npm run allure:open
 - `test/data/`: JSON test data.
 - `wdio.conf.js`: Browser settings, test suites, timeouts, and reporter configuration.
 - `scripts/clean.js`: Removes previous test results.
-- `AGENTS.md`: Additional project rules and coding guidelines.
 
 Selectors and page actions are kept outside the test specs.
 
