@@ -22,7 +22,7 @@ export async function validateCart(selected, user) {
   await Navbar.openCart();
   await expect(Navbar.user).toHaveText(`Welcome ${user.username}`);
   await expect(Cart.rows).toBeElementsArrayOfSize(1);
-  await expect(Cart.productName).toHaveText(selected.name);
-  await expect(Cart.productPrice).toHaveText(String(selected.price));
+  await expect(Cart.productName(selected.name)).toHaveText(selected.name);
+  await expect(Cart.productPrice(selected.name)).toHaveText(String(selected.price));
   await expect(Cart.total).toHaveText(String(selected.price));
 }

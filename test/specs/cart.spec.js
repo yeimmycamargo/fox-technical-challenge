@@ -15,7 +15,7 @@ describe('Cart', () => {
       const selected = await addProduct(scenario.product);
       await step('Validate product identity, price and cart total', () => validateCart(selected, user));
       await step('Remove the test product from the shared account cart', async () => {
-        await Cart.removeProduct();
+        await Cart.removeProduct(selected.name);
         await expect(Cart.rows).toBeElementsArrayOfSize(0);
       });
     });
