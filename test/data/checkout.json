@@ -1,0 +1,21 @@
+[
+  {
+    "id": "BUY-001",
+    "name": "Complete checkout and validate confirmation",
+    "signupMessage": "Sign up successful.",
+    "product": {
+      "category": "Phones",
+      "name": "Samsung galaxy s6",
+      "addMessage": "Product added."
+    },
+    "customer": {
+      "name": "Compradora QA",
+      "country": "Colombia",
+      "city": "Bogota",
+      "card": "4111111111111111",
+      "month": "12",
+      "year": "2030"
+    },
+    "confirmationTitle": "Thank you for your purchase!"
+  }
+]
