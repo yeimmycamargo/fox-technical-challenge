@@ -1,0 +1,20 @@
+{
+  "template": {
+    "prefix": "qa",
+    "domain": "example.com"
+  },
+  "signup": [
+    {
+      "id": "REG-001",
+      "name": "Register a new account",
+      "successMessage": "Sign up successful."
+    }
+  ],
+  "login": [
+    {
+      "id": "LOGIN-001",
+      "name": "Log in and display the correct username",
+      "signupMessage": "Sign up successful."
+    }
+  ]
+}
