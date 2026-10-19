@@ -1,6 +1,3 @@
-Copia este contenido directamente en tu archivo `README.md`:
-
-Escritura
 
 # Demoblaze — UI Test Automation
 
